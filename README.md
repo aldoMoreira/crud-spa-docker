@@ -1,7 +1,10 @@
 # pontential-crud
+```
 A solução para a proficiência foi desenvolvida em linguagem PHP
+```
 
 # Backend
+```
 api/delete.php						//API de exclusão de registros
 api/get_all.php						//API que retorna a lista de todos os registros
 api/get.php                         //API que retorna um registro apenas
@@ -9,25 +12,34 @@ api/post.php                        //API que inclui um registro
 api/put.php                         //API que altera os registros
 class/developers.php                //CLASSE para manutenção da tabela de desenvolvedores
 config/database.php                 //CLASSE de tratamento do banco de dados
+```
 
 # Frontend
+```
 index.php                           //interface principal do projeto, em SPA
 fetch.php                           //trata as requisições de lista do AJAX SPA
 action.php                          //trata as requisições CRUD do AJAX SPA
+```
 
 # Especificação
+```
 sql/create database.sql             //cria a database do projeto
 sql/create table developers.sql     //cria a tabela de desenvolvedores
 sql/create teste data.sql           //gera dados para testes
+```
 
 # API endpoints
+```
 /api/*                              //os end points foram criados de acordo com as necessidades do CRUD 
+```
 
 # Entrega
+```
 docker images                       //utilizadas uma imagem para mysql e outra para php
 webdevops/php-apache:debian-8       //repo para execucao do linux, php e do apache
 mysql:5.7                           //repo para execucao do linux e do mysql
 unittests/developers.postman.json   //coleção de testes unitários para cada end point
+```
 
 
 
