@@ -2,8 +2,8 @@
 A solução para a proficiência foi desenvolvida em linguagem PHP
 
 # Backend
-api/delete.php                      //API de exclusão de registros
-api/get_all.php                     //API que retorna a lista de todos os registros
+api/delete.php						//API de exclusão de registros
+api/get_all.php						//API que retorna a lista de todos os registros
 api/get.php                         //API que retorna um registro apenas
 api/post.php                        //API que inclui um registro
 api/put.php                         //API que altera os registros
